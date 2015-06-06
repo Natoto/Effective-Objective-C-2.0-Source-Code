@@ -14,6 +14,7 @@
 		7B7A215D1B22ED130013F90A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7A215C1B22ED130013F90A /* Images.xcassets */; };
 		7B7A21601B22ED130013F90A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B7A215E1B22ED130013F90A /* LaunchScreen.xib */; };
 		7B7A216C1B22ED130013F90A /* Effective_Objective_C_2_0_Item_13Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A216B1B22ED130013F90A /* Effective_Objective_C_2_0_Item_13Tests.m */; };
+		7B7A21771B22F1360013F90A /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A21761B22F1360013F90A /* NSString+EOCMyAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7B7A21651B22ED130013F90A /* Effective-Objective-C-2.0-Item 13Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effective-Objective-C-2.0-Item 13Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7A216A1B22ED130013F90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B7A216B1B22ED130013F90A /* Effective_Objective_C_2_0_Item_13Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Effective_Objective_C_2_0_Item_13Tests.m; sourceTree = "<group>"; };
+		7B7A21751B22F1360013F90A /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
+		7B7A21761B22F1360013F90A /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				7B7A215C1B22ED130013F90A /* Images.xcassets */,
 				7B7A215E1B22ED130013F90A /* LaunchScreen.xib */,
 				7B7A214F1B22ED130013F90A /* Supporting Files */,
+				7B7A21751B22F1360013F90A /* NSString+EOCMyAdditions.h */,
+				7B7A21761B22F1360013F90A /* NSString+EOCMyAdditions.m */,
 			);
 			path = "Effective-Objective-C-2.0-Item 13";
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				7B7A21581B22ED130013F90A /* ViewController.m in Sources */,
 				7B7A21551B22ED130013F90A /* AppDelegate.m in Sources */,
 				7B7A21521B22ED130013F90A /* main.m in Sources */,
+				7B7A21771B22F1360013F90A /* NSString+EOCMyAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				7B7A21711B22ED130013F90A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B7A21721B22ED130013F90A /* Build configuration list for PBXNativeTarget "Effective-Objective-C-2.0-Item 13Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				7B7A21741B22ED130013F90A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

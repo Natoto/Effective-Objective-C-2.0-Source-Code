@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NSString+EOCMyAdditions.h"
+#import <objc/runtime.h>
 
 @interface ViewController ()
 
@@ -16,7 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //得到两个方法
+    Method originalMethod = class_getInstanceMethod([NSString class], @selector(lowercaseString));
+    Method swappedMethod = class_getInstanceMethod([NSString class], @selector(eoc_myLowercaseString));
+    //调换他们的具体实现
+    method_exchangeImplementations(originalMethod, swappedMethod);
+    
+    NSString *string = @"This iS tHe StRiNg";
+    //这里实际调用eoc_myLowercaseString的实现
+    NSString *lowercaseString = [string lowercaseString];
+    nsl
 }
 
 - (void)didReceiveMemoryWarning {
