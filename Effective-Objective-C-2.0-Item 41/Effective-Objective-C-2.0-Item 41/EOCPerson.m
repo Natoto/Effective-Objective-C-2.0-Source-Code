@@ -9,12 +9,12 @@
 #import "EOCPerson.h"
 
 @implementation EOCPerson
-@synthesize name,age;
+@synthesize name,age,wife = _wife;
 
 -(instancetype)init{
     if (self = [super init]) {
         _syncQueue = dispatch_queue_create("com.effectiveobjectivec.syncQueue", NULL);//穿行队列
-        _currentQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT   , 0);
+        _currentQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT   , 0);//并行队列
     }
     return self;
 }
@@ -31,7 +31,7 @@
         return name;
     }
 }
-
+//通过串行队列实现
 -(NSString *)age{
     __block NSString *localAge;
     dispatch_sync(_syncQueue, ^{
@@ -45,5 +45,21 @@
         age = age1;
     });
 }
+
+//通过并行队列实现
+-(NSString *)wife{
+    __block NSString *localSomeString;
+    dispatch_sync(_currentQueue, ^{
+        localSomeString = _wife;
+    });
+    return localSomeString;
+}
+
+-(void)setWife:(NSString *)wife{
+    dispatch_barrier_async(_currentQueue, ^{
+        _wife = wife;
+    });
+}
+
 
 @end
