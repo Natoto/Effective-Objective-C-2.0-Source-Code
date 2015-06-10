@@ -13,7 +13,8 @@
 
 -(instancetype)init{
     if (self = [super init]) {
-        _syncQueue = dispatch_queue_create("com.effectiveobjectivec.syncQueue", NULL);
+        _syncQueue = dispatch_queue_create("com.effectiveobjectivec.syncQueue", NULL);//穿行队列
+        _currentQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT   , 0);
     }
     return self;
 }

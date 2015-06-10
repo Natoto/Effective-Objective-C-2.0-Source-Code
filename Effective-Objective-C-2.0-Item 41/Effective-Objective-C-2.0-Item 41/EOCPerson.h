@@ -11,6 +11,7 @@
 @interface EOCPerson : NSObject
 {
     dispatch_queue_t _syncQueue;
+    dispatch_queue_t _currentQueue;
 }
 @property(nonatomic,copy)NSString *name;
 
