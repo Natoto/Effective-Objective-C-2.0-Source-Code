@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D92C8561B29AA5F00D6E290 /* EOCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D92C8551B29AA5F00D6E290 /* EOCClass.m */; };
 		7B7AC0C11B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7AC0C01B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m */; };
 		7BE23BC41B29910300311315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23BC31B29910300311315 /* main.m */; };
 		7BE23BC71B29910300311315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23BC61B29910300311315 /* AppDelegate.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D92C8541B29AA5F00D6E290 /* EOCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCClass.h; sourceTree = "<group>"; };
+		4D92C8551B29AA5F00D6E290 /* EOCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCClass.m; sourceTree = "<group>"; };
 		7B7AC0BF1B29921D00D01CAB /* NSTimer+EOCBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlocksSupport.h"; sourceTree = "<group>"; };
 		7B7AC0C01B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlocksSupport.m"; sourceTree = "<group>"; };
 		7BE23BBE1B29910300311315 /* Effective-Objective-C-2.0-Item 52.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective-Objective-C-2.0-Item 52.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +97,8 @@
 				7BE23BCE1B29910300311315 /* Images.xcassets */,
 				7BE23BD01B29910300311315 /* LaunchScreen.xib */,
 				7BE23BC11B29910300311315 /* Supporting Files */,
+				4D92C8541B29AA5F00D6E290 /* EOCClass.h */,
+				4D92C8551B29AA5F00D6E290 /* EOCClass.m */,
 			);
 			path = "Effective-Objective-C-2.0-Item 52";
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				TargetAttributes = {
 					7BE23BBD1B29910300311315 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 63MFEBCZF2;
 					};
 					7BE23BD61B29910300311315 = {
 						CreatedOnToolsVersion = 6.4;
@@ -228,6 +234,7 @@
 				7BE23BCA1B29910300311315 /* ViewController.m in Sources */,
 				7BE23BC71B29910300311315 /* AppDelegate.m in Sources */,
 				7BE23BC41B29910300311315 /* main.m in Sources */,
+				4D92C8561B29AA5F00D6E290 /* EOCClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +360,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Effective-Objective-C-2.0-Item 52/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -363,9 +374,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Effective-Objective-C-2.0-Item 52/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
