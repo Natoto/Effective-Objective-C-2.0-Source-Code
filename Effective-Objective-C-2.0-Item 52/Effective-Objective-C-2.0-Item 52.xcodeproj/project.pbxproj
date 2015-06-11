@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7AC0C11B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7AC0C01B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m */; };
 		7BE23BC41B29910300311315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23BC31B29910300311315 /* main.m */; };
 		7BE23BC71B29910300311315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23BC61B29910300311315 /* AppDelegate.m */; };
 		7BE23BCA1B29910300311315 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23BC91B29910300311315 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B7AC0BF1B29921D00D01CAB /* NSTimer+EOCBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlocksSupport.h"; sourceTree = "<group>"; };
+		7B7AC0C01B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlocksSupport.m"; sourceTree = "<group>"; };
 		7BE23BBE1B29910300311315 /* Effective-Objective-C-2.0-Item 52.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective-Objective-C-2.0-Item 52.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE23BC21B29910300311315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BE23BC31B29910300311315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		7BE23BC01B29910300311315 /* Effective-Objective-C-2.0-Item 52 */ = {
 			isa = PBXGroup;
 			children = (
+				7B7AC0BF1B29921D00D01CAB /* NSTimer+EOCBlocksSupport.h */,
+				7B7AC0C01B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m */,
 				7BE23BC51B29910300311315 /* AppDelegate.h */,
 				7BE23BC61B29910300311315 /* AppDelegate.m */,
 				7BE23BC81B29910300311315 /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7AC0C11B29921D00D01CAB /* NSTimer+EOCBlocksSupport.m in Sources */,
 				7BE23BCA1B29910300311315 /* ViewController.m in Sources */,
 				7BE23BC71B29910300311315 /* AppDelegate.m in Sources */,
 				7BE23BC41B29910300311315 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				7BE23BE31B29910300311315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BE23BE41B29910300311315 /* Build configuration list for PBXNativeTarget "Effective-Objective-C-2.0-Item 52Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				7BE23BE61B29910300311315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
