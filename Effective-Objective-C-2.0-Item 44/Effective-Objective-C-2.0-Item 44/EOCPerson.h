@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface EOCPerson : NSObject
+@property(nonatomic,assign)NSInteger tag;
+
 -(void)DoSomeThing;
+-(void)printString;
 @end

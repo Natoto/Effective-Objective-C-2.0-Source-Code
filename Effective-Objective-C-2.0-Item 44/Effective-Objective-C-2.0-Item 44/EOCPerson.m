@@ -12,4 +12,12 @@
 -(void)DoSomeThing{
     NSLog(@"哈哈哈哈哈哈哈");
 }
+
+-(void)printString{
+    if (self.tag > 4) {
+        NSLog(@"heightxxxxxxx");
+    }else{
+        NSLog(@"lowxxxxxxxx");
+    }
+}
 @end
