@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA321D5F-6232-4503-82A4-3E058A5E35F7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</key>
+		<string>https://github.com/huang303513/Effective-Objective-C-2.0-Source-Code.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Effective-Objective-C-2.0-Item 49/Effective-Objective-C-2.0-Item 49.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/Effective-Objective-C-2.0-Source-Code.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Effective-Objective-C-2.0-Source-Code</string>
+		</dict>
+	</array>
+</dict>
+</plist>
